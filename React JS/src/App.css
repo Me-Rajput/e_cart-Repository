@@ -1,0 +1,89 @@
+
+.dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+  .badge {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .badgeInStock {
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .badgeOutOfStock {
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .checked {
+    color: orange;
+  }
+  .unchecked {
+    color:rgb(216, 198, 198);
+  }
+  .linkcolor {
+    color: black;
+  }
+.linkcolor:hover  {
+  color:brown;
+}
+.imageMagnifier{
+  width: 400px;
+  height: 400px;
+}
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+}
+.productCard {
+  padding: 10px;
+  border: 0px;
+}
+.productCard:hover {
+  box-shadow: 5px 5px 10px 10px #EFEDED ;
+}
+.orderDivStyle {
+  margin:20px;
+  padding: 20px;
+  border-radius: 20px;
+  max-height: 200px;
+  transition: .8s;
+}
+.orderDivStyle:hover {
+  box-shadow: 5px 5px 10px 10px #EFEDED ;
+  transition: .8s;
+  transition-delay: .1s;
+  scale: 1.05;
+}
+.topProductImage {
+  height: 300px;
+  width: 230px;
+  transition: .5s;
+}
+.topProductImage:hover {
+  scale: 1.06;
+  transition: .5s;
+  transition-delay: .2s;
+}
