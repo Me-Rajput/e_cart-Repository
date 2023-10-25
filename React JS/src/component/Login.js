@@ -15,7 +15,7 @@ export default function Login(props) {
 
   useEffect(() => {
     getCartData(loginInfo?.customerId)
-  })
+  },[loginInfo])
 
   const setLoginData = (event) => {
     setData({ ...data, [event.target.name]: event.target.value })
